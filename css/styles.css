@@ -216,7 +216,8 @@ background-color: #F4F4FD;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; /* Заданий колір тексту */
+    color: #4d5ae5; 
+    display: inline-block;
 }
 
 footer{
@@ -233,6 +234,7 @@ footer{
     max-width: 264px;
     font-size: 14px; 
     color: #666;
+    margin-bottom: 16px;
 }
 h1, h2, h3, p {
     margin: 0;
