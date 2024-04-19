@@ -27,7 +27,8 @@ body {
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 
+    padding: 0 15px;
+    display: flex; 
 }
 .page-header {
         border-bottom: 1px solid #e7e9fc;
@@ -65,6 +66,7 @@ body {
 
 .menu-link{
         color: #2e2f42;
+        padding: 24px 0;
 }
 
 .menu-link:focus,
