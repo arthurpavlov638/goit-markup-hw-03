@@ -22,6 +22,16 @@ body {
     background-color: #fff;
     color: #434455;}
 
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 
+}
+.page-header {
+        border-bottom: 1px solid #e7e9fc;
+        display: flex; 
+    }
+    
 .page-logo{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -30,17 +40,22 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-right: 76px
 }
 
 .logo-page{
     color: #2e2f42;
 }
-
+.top-nav{
+    display: flex;
+    align-items: center; 
+}
 .menu-item{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.02em;display: flex;gap: 40px ;
+        padding: 24px 0
 }
 
 .menu-link{
@@ -61,7 +76,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: #434455;display: flex;gap: 40px ;
 }
 
 .address-link:hover,
