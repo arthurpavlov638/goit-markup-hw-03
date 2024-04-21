@@ -183,8 +183,8 @@ body {
 
 .section-list {
     display: flex;
-    gap:24px;
-   
+    margin-right: 24px;
+    margin-right: 0 ;
 }
 .section-list-item {
     display: flex;
@@ -322,6 +322,7 @@ margin-bottom: 72px;
 /* ============ FOOTER ============ */
 .page-footer .page-logo {
     display: inline-block;
+    margin-bottom: 16px;
 }
 .page-footer {
     padding: 100px 0;    
@@ -329,7 +330,7 @@ margin-bottom: 72px;
     font-size: 16px; 
     color: #333;
     text-decoration: none;
-    display:inline-block;
+    
     
 }
 
@@ -341,8 +342,8 @@ margin-bottom: 72px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
-    display:inline-block;
-    margin-bottom: 16px;
+    
+    
 }
 
 footer{
