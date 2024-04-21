@@ -8,7 +8,9 @@ h5,
 h6,
 p {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 72px;
+  gap: 24px;
+  display: flex;
 }
 
 
@@ -16,7 +18,7 @@ ul,ol {
     list-style-type: none;  
     margin: 0;
     padding-left: 0;
-    
+    display: flex;
     gap: 40px 
 }
 a {  
@@ -178,12 +180,8 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .section-list{
-    display: flex;gap: 24px;
-  }
-  .section-list-item{
-    width: calc((100% - 72px) / 4); 
-  }
+
+
 
 
 .section-list-title{
