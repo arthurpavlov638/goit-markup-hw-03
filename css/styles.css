@@ -183,12 +183,12 @@ body {
 .section-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+   
 }
 .section-list-item {
     display: flex;
     flex-direction: column;
-    
+    width: calc((100% - 72px) / 4);
 }
 
   
