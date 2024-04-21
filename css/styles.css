@@ -265,7 +265,9 @@ color: #434455;
 }
 
 /* ============ OUR PORTFOLIO ============ */
-
+.section-our-portfolio{
+    padding: 120px 0 120px 0;
+}
 .section-our-portfolio{
     font-weight: 500;
 font-size: 36px;
@@ -274,7 +276,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize; 
 color: #2e2f42;
 text-align: center;
-padding-top: 120px;
+
 
 }
 .section-title-portfilio{
