@@ -9,12 +9,6 @@ a {  color: inherit;
     text-decoration: none;
 }
 button {
-    
-    min-width: 169px;
-    display: block;height: 56px ;
-    border: none;
-    background-color: #4d5ae5;
-    border-radius: 4px;
     cursor: pointer;
 }
 address{
@@ -34,9 +28,7 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    margin-left:auto;  
-    margin-right: auto;
+    display: flex; 
 }
 .page-header {
         border-bottom: 1px solid #e7e9fc;
@@ -109,7 +101,6 @@ body {
 }
  .custom-section{
     background-color: #2e2f42; 
-    padding: 188px 0 188px ;padding-top: 188px;  padding-bottom: 188px;
  } 
 .buy-now-btn{font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -117,8 +108,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4d5ae5;
-    color: #ffffff; 
-    
+    color: #ffffff;
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus {
@@ -281,8 +271,6 @@ img {
     max-width: 1200px; 
     margin: 0 auto; 
 }
-.h1{
-    max-width: 496px;
-}
+
 
 
