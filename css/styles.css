@@ -275,6 +275,9 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em
 }
 /* ============ FOOTER ============ */
+.page-footer .page-logo {
+    display: inline-block;
+}
 .page-footer {
     padding: 100px 0;    
     margin-bottom: 16px;
