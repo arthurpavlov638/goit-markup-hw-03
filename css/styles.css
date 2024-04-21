@@ -214,9 +214,17 @@ color: #434455;
 
 /* ============ OUR TEAM ============ */
 
-
-
-
+.section-our-team{
+    padding: 120px 0
+}
+.section-title-team{
+    margin-bottom: 72px;
+    display: flex;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
+}
 
 .team-member-list{
     background-color: #FFFFFF
