@@ -281,7 +281,7 @@ background-color: #F4F4FD;
     font-size: 16px; 
     color: #333;
     text-decoration: none;
-    display: inline-block;
+    display:inline-block;
     
 }
 
@@ -293,16 +293,17 @@ background-color: #F4F4FD;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
-    display: inline-block;
+    display:inline-block;
     margin-bottom: 16px;
 }
 
 footer{
     background-color: #2e2f42;
+    display:inline-block;
 }
 
 .text-italic {
-    color: #f4f4fd; /* Заданий колір тексту для span */
+    color: #f4f4fd; 
 }
 .contact-text {
     line-height: 1.5;
