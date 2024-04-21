@@ -227,7 +227,10 @@ color: #434455;
 }
 
 .team-member-list{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 72px) / 4);
 }
 .section-our-team{
     background-color:#f4f4fd;
