@@ -179,15 +179,17 @@ body {
     overflow: hidden;
   }
 
-
-
-
+  .section-list-item{
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+  }
 .section-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     
 }
 
