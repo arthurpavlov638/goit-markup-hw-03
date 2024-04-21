@@ -1,3 +1,17 @@
+/* ============ COMMON STYLES ============ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
 ul,ol {
     list-style-type: none;  
     margin: 0;
@@ -5,11 +19,16 @@ ul,ol {
     display: flex;
     gap: 40px 
 }
-a {  color: inherit;
+a {  
+    color: inherit;
     text-decoration: none;
 }
 button {
     cursor: pointer;
+}
+
+img {
+    display: block;
 }
 address{
     font-style: normal
@@ -28,8 +47,17 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex; 
-}
+    display: flex;
+    
+      
+    margin-left:auto;  
+    margin-right:auto
+    }
+
+
+
+
+/* ============ HEADER STYLES ============ */
 .page-header {
         border-bottom: 1px solid #e7e9fc;
         display: flex; 
@@ -91,6 +119,12 @@ body {
 .address-link:active{
     color: #404bbf;
 }
+  
+
+/* ============ HERO STYLES ============ */
+.custom{
+    padding: 188px 0
+}
 .custom-title {
     font-size: 56px;
     line-height: 1.07;
@@ -98,6 +132,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
     background-color:#2e2f42 ;
+    max-width: 496px;
 }
  .custom-section{
     background-color: #2e2f42; 
@@ -107,14 +142,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus {
    background: #404bbf;
 }
 
+
+/* ============ OUR BENEFICS ============ */
 .section-title-our{
     font-weight: 500;
     font-size: 36px ;
@@ -124,16 +167,12 @@ body {
     color :#2e2f42;
     text-transform: capitalize
  }
- 
-  
-
-
 .section-list-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;}
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
 
 .section-list-text{   
 font-weight: 400;
@@ -141,16 +180,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-}
-.custom-title-item{
-    font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-}
+}  
+
+/* ============ OUR TEAM ============ */
+
+
+
+
 
 .team-member-list{
     background-color: #FFFFFF
@@ -184,7 +220,7 @@ text-align: center;
 color: #434455;
 }
 
-
+/* ============ OUR PORTFOLIO ============ */
 
 .section-our-portfolio{
     font-weight: 500;
@@ -196,7 +232,7 @@ color: #2e2f42;
 text-align: center;
 
 }
-.section-title{
+.section-title-portfilio{
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11; 
@@ -221,12 +257,12 @@ background-color: #F4F4FD;
     color:#434455 ;
     letter-spacing: 0.02em
 }
-
+/* ============ FOOTER ============ */
 .page-footer {
     padding: 100px 0;    display: inline-block;
     margin-bottom: 16px;
-    font-size: 16px; /* Приклад розміру шрифту */
-    color: #333; /* Приклад кольору тексту */
+    font-size: 16px; 
+    color: #333;
     text-decoration: none;
     
 }
@@ -259,18 +295,10 @@ footer{
     color: #666;
     
 }
-h1, h2, h3, p {
-    margin: 0;
-}
-img {
-    display: block;
-}
 
 
-.container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
+
+
 
 
 
