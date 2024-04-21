@@ -162,9 +162,7 @@ body {
 
 
 /* ============ OUR BENEFICS ============ */
-.section-our{
-    padding: 120px 0
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -178,6 +176,19 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  .section-our{
+    padding: 120px 0;
+}
+
+.section-list {
+    display: flex;
+}
+.section-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
 
   
 .section-list-title{
@@ -187,7 +198,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
+    
     gap: 24px;
     
 }
