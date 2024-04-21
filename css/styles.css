@@ -16,7 +16,7 @@ ul,ol {
     list-style-type: none;  
     margin: 0;
     padding-left: 0;
-    display: flex;
+    
     gap: 40px 
 }
 a {  
@@ -121,7 +121,7 @@ body {
 }
   
 
-/* ============ HERO STYLES ============ */
+/* ============ HERO IMAGE ============ */
  
 
 .section-container{
@@ -178,8 +178,12 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-
-
+  .section-list{
+    display: flex;gap: 24px;
+  }
+  .section-list-item{
+    width: calc((100% - 72px) / 4); 
+  }
 
 
 .section-list-title{
