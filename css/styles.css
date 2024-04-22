@@ -185,11 +185,13 @@ body {
     display: flex;
     margin-right: 24px;
     margin-right: 0 ;
+    width: calc((100% - 72px) / 4);
+    gap: 24px;
 }
 .section-list-item {
     display: flex;
     flex-direction: column;
-    width: calc((100% - 72px) / 4);
+    
 }
 
   
@@ -201,7 +203,7 @@ body {
     color: #2e2f42;
     margin-bottom: 8px;
     
-    gap: 24px;
+    
     
 }
 
