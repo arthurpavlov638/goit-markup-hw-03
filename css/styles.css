@@ -45,7 +45,7 @@ body {
     color: #434455;}
 
 .container{
-    width: 1158px;
+    min-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
@@ -268,47 +268,63 @@ color: #434455;
 }
 
 /* ============ OUR PORTFOLIO ============ */
-.section-our-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.section-our-portfolio{
+    padding: 120px 0 120px 0;
 }
+.section-our-portfolio .container{
+    font-weight: 500;
+font-size: 36px;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize; 
+color: #2e2f42;
+text-align: center;
 
-.section-our-portfolio .container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+
 }
-
-.section-our-portfolio .section-title-portfolio {
-    margin-bottom: 72px;
+.section-title-portfolio{
+   margin-bottom: 72px; 
 }
+.section-title-portfilio{
+font-weight: 500;
+font-size: 36px;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize; 
+color: #2e2f42;
+text-align: center;
+background-color: #F4F4FD;
 
-.section-our-portfolio ul {
+}
+.section-list{
     display: flex;
+      padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+    width: calc((100% - 48px) / 3);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
+   
 
-.section-our-portfolio .section-list {
-    width: calc((100% - 48px) / 3);
-    margin-bottom: 48px;
+  
+.section-list-item{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 8px 
+ }
+ .section-list-text{
+    font-size: 16px;
+    line-height: 1.5;
+    color:#434455 ;
+    letter-spacing: 0.02em
 }
-
-.section-our-portfolio .section-list:nth-child(3n) {
-    margin-right: 0;
-}
-
-.section-our-portfolio .portfolio-box {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-
-.section-our-portfolio .section-list-item {
-    margin-bottom: 8px;
-}
-
 /* ============ FOOTER ============ */
 .page-footer .page-logo {
     display: inline-block;
