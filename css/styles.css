@@ -271,62 +271,7 @@ color: #434455;
 .section-our-portfolio{
     padding: 120px 0 120px 0;
 }
-.section-our-portfolio .container{
-    font-weight: 500;
-font-size: 36px;
-line-height: 1.11; 
-letter-spacing: 0.02em;
-text-transform: capitalize; 
-color: #2e2f42;
-text-align: center;
 
-
-}
-.section-title-portfolio{
-   margin-bottom: 72px; 
-}
-.section-title-portfilio{
-font-weight: 500;
-font-size: 36px;
-line-height: 1.11; 
-letter-spacing: 0.02em;
-text-transform: capitalize; 
-color: #2e2f42;
-text-align: center;
-background-color: #F4F4FD;
-
-}
-.section-list{
-    display: flex;
-      padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none; 
-    width: calc((100% - 48px) / 3);
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-   
-
-  
-.section-list-item{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color:#2e2f42 ;
-    text-transform: capitalize;
-    line-height: 1.2;
-    margin-bottom: 8px ;
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
- }
- .section-list-text{
-    font-size: 16px;
-    line-height: 1.5;
-    color:#434455 ;
-    letter-spacing: 0.02em
-}
 /* ============ FOOTER ============ */
 .page-footer .page-logo {
     display: inline-block;
