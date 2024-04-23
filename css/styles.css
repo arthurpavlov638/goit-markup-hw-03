@@ -317,7 +317,9 @@ background-color: #F4F4FD;
     color:#2e2f42 ;
     text-transform: capitalize;
     line-height: 1.2;
-    margin-bottom: 8px 
+    margin-bottom: 8px ;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
  }
  .section-list-text{
     font-size: 16px;
@@ -328,7 +330,7 @@ background-color: #F4F4FD;
 /* ============ FOOTER ============ */
 .page-footer .page-logo {
     display: inline-block;
-    margin-bottom: 16px;
+    
 }
 .page-footer {
     padding: 100px 0;    
@@ -348,7 +350,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
-    
+    margin-bottom: 16px;
     
 }
 
