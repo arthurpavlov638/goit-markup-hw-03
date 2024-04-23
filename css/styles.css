@@ -44,13 +44,10 @@ body {
     background-color: #fff;
     color: #434455;}
 
-.container{
+.conteiner{
     min-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    
-      
+    padding-left:16px;
+    padding-right:16px ;
     margin-left:auto;  
     margin-right:auto
     }
@@ -269,14 +266,55 @@ color: #434455;
 
 /* ============ OUR PORTFOLIO ============ */
 .section-our-portfolio{
-    padding: 120px 0 120px 0;
-}
-
-/* ============ FOOTER ============ */
-.page-footer .page-logo {
-    display: inline-block;
+    padding: 120px 0 ; 
     
 }
+.our-portfolio{
+    width: calc((100% - 48px) / 3);
+   
+}
+.section-title-portfolio{
+    margin-bottom: 72px;
+    display: flex;
+}
+.section-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    border: 1px solid #e7e9fc;
+    border-top: none;  
+}
+.portfolio-box{
+    padding: 32px 0;
+    
+}
+  .section-list-item{   
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 32px 16px;
+}
+.section-list-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;    
+}
+.section-list-item{
+    padding: 32px 16px;
+    
+}
+/* ============ FOOTER ============ */
+
+
 .page-footer {
     padding: 100px 0;    
     margin-bottom: 16px;
@@ -301,7 +339,7 @@ color: #434455;
 
 footer{
     background-color: #2e2f42;
-    display:inline-block;
+    
 }
 
 .text-italic {
