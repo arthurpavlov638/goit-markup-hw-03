@@ -58,9 +58,15 @@ body {
 /* ============ HEADER STYLES ============ */
 .page-header {
         border-bottom: 1px solid #e7e9fc;
-        display: flex; 
+        
     }
     
+.container-header{
+    display: flex;
+    width: 1158px;
+    margin:0 auto;
+    padding: 0 15px; 
+}
 .page-logo{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -101,15 +107,16 @@ body {
         color: #404bbf;
 }
 
-.address-top{
-        font-style: normal
-}
+
+
 
 .address-link{ 
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;display: flex;gap: 40px ;
+        color: #434455;
+        display: flex;
+        gap: 40px ;
 }
 
 .address-link:hover,
