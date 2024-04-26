@@ -44,9 +44,8 @@ body {
     color: #434455;}
 
 .conteiner{
-    max-width:1158px;
-    padding-left:15px;
-    padding-right:15px ;
+    width:1158px;
+    padding: 0 15px; 
     margin-left:auto;  
     margin-right:auto;
     margin: 0 auto;
@@ -80,6 +79,7 @@ body {
         text-transform: uppercase;
         color: #4D5AE5;
         margin-right: 76px;
+        
 }
 
 .logo-page{
