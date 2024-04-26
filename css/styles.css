@@ -238,7 +238,7 @@ color: #434455;
     margin-bottom: 72px;
     display: flex;
 }
-.team-list{
+.team-member-list{
     display: flex;
     gap: 24px; 
     width: calc((100% - 72px) / 4);
