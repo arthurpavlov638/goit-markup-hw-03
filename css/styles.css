@@ -249,7 +249,7 @@ color: #434455;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: calc((100% - 72px) / 4);
+    
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
@@ -258,6 +258,9 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; 
+}
+.team-member-list-list:first-child {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
  
