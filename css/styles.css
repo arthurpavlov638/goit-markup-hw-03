@@ -246,7 +246,7 @@ color: #434455;
 .team-box{
     padding: 32px 0
 }
-.team-member-list{
+.team-member-list-list{
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
