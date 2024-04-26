@@ -259,7 +259,7 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #434455; 
 }
-.team-member-list-list:first-child {
+.team-member-list-list {
     flex-basis: calc((100% - 72px) / 4);
 }
 
