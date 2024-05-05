@@ -1,138 +1,212 @@
 /* ============ COMMON STYLES ============ */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-
-ul,ol {
-    list-style-type: none;  
-    margin-top:  0;
-    margin-bottom: 0;
-    padding-left: 0;
-    
-}
-a {  
-    color: inherit;
-    text-decoration: none;
-    
-}
-button {
-    cursor: pointer;
-}
-
-img {
-    display: block;
-}
-address{
-    font-style: normal
-} 
-span{
-    color: #2e2f42;
-}
-
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: #fff;
-    color: #434455;}
-
-.conteiner{
-    width:1158px;
-    padding: 0 15px; 
-    margin-left:auto;  
-    margin-right:auto;
-    
-    }
-
-
-
-
-/* ============ HEADER STYLES ============ */
-.page-header {
-        border-bottom: 1px solid #e7e9fc;
-        
-    }
-.header-container{
-    display:flex;
-    align-items: center;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    
-
-}
-  .top-nav{
-    display: flex;
-    align-items: center;
-  }
-
-.page-logo{
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
-        margin-right: 76px;
-        
-}
-
-.logo-page{
-    color: #2e2f42;
-}
-.menu{
-    display: flex;
-    gap: 40px ;
-    padding: 24px 0; 
-}
-
-.menu-item{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;       
-}
-
-.menu-link{
-        color: #2e2f42;
-        padding: 24px 0;
-}
-
-.menu-link:focus,
-.menu-link:hover,
-.menu-link:active{
-        color: #404bbf;
-}
-
-.address-list{
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
-    margin-left: 332px;
-}
-.address-link{
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
-}
-
-.address-link:hover,
-.address-link:focus,
-.address-link:active{
+    background-color: #fff;
+    margin: 0;
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 0 72px;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    box-sizing: border-box;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  button {
+    padding: 0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .head-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
+  }
+  
+  .navigator {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+  }
+  
+  .nav-logo-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    align-self: center;
+    margin-right: 76px;
+  }
+  
+  .nav-logo {
+    color: #2e2f42;
+  }
+  
+  .btn-link {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #2e2f42;
+    text-decoration: none;
+    padding: 24px 0;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
     color: #404bbf;
-}
+  }
+  
+  .link-contact {
+    font-style: normal;
+    align-items: center;
+  }
+  
+  .link-contact-list {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .link-contact a {
+    font-weight: 400;
+    color: #434455;
+    text-decoration: none;
+  }
+  
+  .link-contact a:hover,
+  .link-contact a:focus {
+    color: #404bbf;
+  }
+/* ============ HEADER STYLES ============ */
+.head-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
+  }
+  
+   .navigator {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+  }
+  
+  .nav-logo-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    align-self: center;
+    margin-right: 76px;
+  }
+  
+  .nav-logo {
+    color: #2e2f42;
+  }
+  
+  .btn-link {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #2e2f42;
+    text-decoration: none;
+    padding: 24px 0;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404bbf;
+  }
+  
+  .link-contact {
+    font-style: normal;
+    align-items: center;
+  }
+  
+  .link-contact-list {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .link-contact a {
+    font-weight: 400;
+    color: #434455;
+    text-decoration: none;
+  }
+  
+  .link-contact a:hover,
+  .link-contact a:focus {
+    color: #404bbf;
+  }
   
 
 /* ============ HERO IMAGE ============ */
@@ -148,31 +222,33 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 496px;
+    
     
     
 }
 
-.buy-now-btn{font-family: "Roboto", sans-serif;
-    font-weight: 500;
+.btn-order {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 500;
     letter-spacing: 0.04em;
-    background-color: #4d5ae5;
-    color: #ffffff;
-    display: block;
+    color: #fff;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
-
-}
-.buy-now-btn:hover,
-.buy-now-btn:focus {
-   background: #404bbf;
-}
+    background-color: #4d5ae5;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+  }
+  
+  .btn-order:hover,
+  .btn-order:focus {
+    background: #404bbf;
+  }
 
 
 /* ============ OUR BENEFICS ============ */
@@ -234,10 +310,12 @@ color: #434455;
     background-color:#f4f4fd;
 }
 .section-title-team{
-    margin-bottom: 72px;
-    display: flex;
+    
+    text-align: center;
+    margin: 0 auto;
 }
 .team-member-list{
+   margin-top: 72px;
    width: calc((100% - 72px) / 4); 
    display: flex;
    gap: 24px; 
@@ -285,57 +363,45 @@ color: #434455;
 
 /* ============ OUR PORTFOLIO ============ */
 .section-our-portfolio{
-    padding: 120px 0 ; 
+    padding: 120px 0;
+}
+.section-portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
     
-}
-
-.section-portfolio-title{
-    margin-bottom: 72px;
-    display: flex;
-}
-.section-portfolio-list{
+  }
+  
+  .section-portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .section-portfolio-list-list {
     column-gap: 24px;
     row-gap: 48px;
-}
-.section-portfolio-list-list{
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 48px) / 3);
-      
-}
-.portfolio-box{
-    
-    
-    padding: 32px 16px;
+  }
+  
+  .portfolio-box {
     border: 1px solid #e7e9fc;
-    border-top: none; 
-}
-  .section-portfolio-item{   
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    
-}
-.section-portfolio-text{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;    
-}
-.section-portfolio-item{
+    border-top: none;
     padding: 32px 16px;
-    
-}
+  }
+  
+  .portfolio-img {
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+  
+
 /* ============ FOOTER ============ */
 .page-footer{
-   padding: 100px 0;  
+   padding: 100px 0;
+
 }
 
 .page-logo{
@@ -373,8 +439,8 @@ footer{
     letter-spacing: 0.02em;    
     max-width: 264px;
     font-size: 14px; 
-    color: #666;
-    
+    color: #f4f4fd;
+    max-width: 264px;
 }
 
 
