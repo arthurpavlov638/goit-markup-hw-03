@@ -244,9 +244,12 @@ color: #434455;
     background-color:#f4f4fd;
 }
 .section-title-team{
-    margin-bottom: 72px;
+  
     text-align: center;
     margin: 0 auto;
+}
+.section-title-team{
+    margin-bottom: 72px;
 }
 .team-member-list{
    
