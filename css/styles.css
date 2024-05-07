@@ -69,8 +69,8 @@ body {
     margin: 0 auto;
     padding: 0 15px;
   }
-  
-  .head-nav {
+/* ============ HEADER STYLES ============ */
+.head-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +94,7 @@ body {
     color: #4d5ae5;
     text-decoration: none;
     align-self: center;
-    margin-right: 76px;
+    
   }
   
   .nav-logo {
@@ -138,76 +138,6 @@ body {
   .link-contact a:focus {
     color: #404bbf;
   }
-/* ============ HEADER STYLES ============ */
-.head-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  
-   .navigator {
-    display: flex;
-    gap: 76px;
-    align-items: center;
-  }
-  
-  .nav-logo-web {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    align-self: center;
-    margin-right: 76px;
-  }
-  
-  .nav-logo {
-    color: #2e2f42;
-  }
-  
-  .btn-link {
-    display: flex;
-    gap: 40px;
-  }
-  
-  .nav-link {
-    font-weight: 500;
-    color: #2e2f42;
-    text-decoration: none;
-    padding: 24px 0;
-  }
-  
-  .nav-link:hover,
-  .nav-link:focus {
-    color: #404bbf;
-  }
-  
-  .link-contact {
-    font-style: normal;
-    align-items: center;
-  }
-  
-  .link-contact-list {
-    display: flex;
-    gap: 40px;
-  }
-  
-  .link-contact a {
-    font-weight: 400;
-    color: #434455;
-    text-decoration: none;
-  }
-  
-  .link-contact a:hover,
-  .link-contact a:focus {
-    color: #404bbf;
-  }
-  
 
 /* ============ HERO IMAGE ============ */
  
@@ -222,6 +152,9 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
     
     
     
@@ -316,7 +249,7 @@ color: #434455;
 }
 .team-member-list{
    margin-top: 72px;
-   width: calc((100% - 72px) / 4); 
+
    display: flex;
    gap: 24px; 
 }
@@ -385,7 +318,9 @@ color: #434455;
     column-gap: 24px;
     row-gap: 48px;
   }
-  
+  .section-portfolio-item{
+    margin-bottom: 8px;
+  }
   .portfolio-box {
     border: 1px solid #e7e9fc;
     border-top: none;
