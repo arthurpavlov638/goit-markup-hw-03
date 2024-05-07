@@ -94,11 +94,12 @@ body {
     color: #4d5ae5;
     text-decoration: none;
     align-self: center;
-    
+    margin-right: 76px;
   }
   
   .nav-logo {
     color: #2e2f42;
+    
   }
   
   .btn-link {
@@ -243,12 +244,12 @@ color: #434455;
     background-color:#f4f4fd;
 }
 .section-title-team{
-    
+    margin-bottom: 72px;
     text-align: center;
     margin: 0 auto;
 }
 .team-member-list{
-   margin-top: 72px;
+   
 
    display: flex;
    gap: 24px; 
@@ -312,9 +313,10 @@ color: #434455;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    
   }
   
-  .section-portfolio-list-list {
+  .section-portfolio-list {
     column-gap: 24px;
     row-gap: 48px;
   }
