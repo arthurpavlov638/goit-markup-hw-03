@@ -94,7 +94,7 @@ body {
     color: #4d5ae5;
     text-decoration: none;
     align-self: center;
-    margin-right: 76px;
+    
   }
   
   .nav-logo {
@@ -248,12 +248,10 @@ color: #434455;
     text-align: center;
     margin: 0 auto;
 }
-.section-title-team{
-    margin-bottom: 72px;
-}
+
 .team-member-list{
    
-
+   margin-top: 72px;
    display: flex;
    gap: 24px; 
 }
